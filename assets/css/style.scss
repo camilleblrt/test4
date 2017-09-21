@@ -41,7 +41,14 @@
   display:inline-block;
   text-align:center;
   text-decoration: none;
-  float: right;
   background-color:#aa030c;
   border:#aa030c;
 }
+
+.left-nav{
+  float: left;
+}
+.right-nav{
+  float: right;
+}
+
