@@ -3,20 +3,31 @@
 
 @import "jekyll-theme-midnight";
 
-p{
-  color:red;
-}
+// Header
 #header nav li a{
   background-color:#aa030c;
   border:#aa030c;
 }
 #header{
-  background-color:#111;
+  background:#111;
 }
 
 #header nav{
-  background-color: #111;
+  background: #111;
 }
+
+// Navbar
 #navbar {
   margin:65px;
+}
+#navbar nav li a{
+  color:white;
+  border-radius:2px;
+  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.3), 0px 3px 7px rgba(0,0,0,0.7);
+  padding:10px 12px;
+  margin-top:6px;
+  line-height:14px;
+  font-size:14px;
+  display:inline-block;
+  text-align:center;
 }
