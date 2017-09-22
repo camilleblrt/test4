@@ -65,6 +65,10 @@ body{
   border:#aa030c;
   margin-right: 100px;
 }
+#header nav li a:hover{
+  background-color: #aa030c;
+  border: 1px solid #aa030c;
+}
 
 .left-nav{
   float: left;
