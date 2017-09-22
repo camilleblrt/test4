@@ -7,7 +7,7 @@ body{
   background: #000;
 }
 p{
-  margin-top:1rem;!important
+  margin-top:1rem!important;
 }
 // Header
 #header nav li a{
@@ -45,6 +45,12 @@ p{
   margin-top:5px;
 }
 
+#header nav .downloads{
+  background:#aa030c;
+  border:#aa030c;
+  text-decoration:none;
+  height:60px;
+}
 
 // Navbar
 #navbar {
