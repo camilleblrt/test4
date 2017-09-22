@@ -1,6 +1,6 @@
-# August 2017 (version 1.16)
+# August 2017 (version 1.0.0-beta.31)
 
-**Update 1.16.1**: The update addresses these [issues](https://github.com/Microsoft/vscode/milestone/53?closed=1).
+**Update 1.0.0-beta.31**: The update addresses these [issues](https://github.com/Microsoft/vscode/milestone/53?closed=1).
 
 ---
 
