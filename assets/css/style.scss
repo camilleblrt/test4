@@ -14,14 +14,20 @@ p{
   color:#fff;
 }
 // Header
+#header{
+  background:#111;
+  border-bottom: 0px;
+}
+
+#header nav{
+  background:#111;
+  margin: 0px;
+}
+
 #header nav li a{
   background-color:#111;
   border:#111;
   box-shadow:none;
-}
-#header{
-  background:#111;
-  border-bottom: 0px;
 }
 
 #header nav li a:hover{
@@ -30,42 +36,28 @@ p{
   color:#9d9d9d;
 }
 
-#header nav{
-  background:#111;
-  float:right;
-  margin: 0px;
-//   margin-right: 125px;
+// .logo{
+//   margin-left:20px;
+//   margin-top:5px;
+// }
 
-}
+// #header nav .downloads{
+//   background:#aa030c;
+//   border:#aa030c;
+//   text-decoration:none;
+//   height:60px;
+// }
+// #header nav .downloads a{
+//   background:#aa030c;
+// }
 
-#header nav .btn-group button{
-  background-color: #111;
-  border:#111;
-  color: white;
-}
-
-.logo{
-  margin-left:20px;
-  margin-top:5px;
-}
-
-#header nav .downloads{
-  background:#aa030c;
-  border:#aa030c;
-  text-decoration:none;
-  height:60px;
-}
-#header nav .downloads a{
-  background:#aa030c;
-}
-
-#header nav li.downloads a:hover{
-    background-color: #aa030c;
-    border: 1px solid #aa030c;
-    color: #9d9d9d;
-    text-decoration: none;
-    box-shadow: none;
-}
+// #header nav li.downloads a:hover{
+//     background-color: #aa030c;
+//     border: 1px solid #aa030c;
+//     color: #9d9d9d;
+//     text-decoration: none;
+//     box-shadow: none;
+// }
   
 // Navbar
 #navbar {
