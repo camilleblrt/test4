@@ -35,11 +35,14 @@ p{
   color:#9d9d9d;
 }
 
+#header nav li.downloads a:hover{
+      text-decoration: none;
+}
+
 #header nav .software{
   background:#aa030c;
   border:#aa030c;
   text-decoration:none;
-  height:60px;
 }
 
 #header nav .software a{
@@ -50,9 +53,9 @@ p{
     background-color: #aa030c;
     border: 1px solid #aa030c;
     color: #9d9d9d;
-    text-decoration: none;
     box-shadow: none;
 }
+
   
 // Navbar
 #navbar {
