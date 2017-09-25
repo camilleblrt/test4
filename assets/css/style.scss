@@ -42,15 +42,11 @@ p {
 .download{
   color: white;
   border: 1px solid #9E0B0F;
-  border-radius: 2px;
   background-color: #9E0B0F;
   padding: 10px 12px;
   margin-top: 6px;
   line-height: 100%;
   font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  text-decoration:none;
   height:57px;
 }
 
@@ -61,16 +57,6 @@ p {
 
 .dask{
   color: white;
-  border: 1px solid #000;
-  border-radius: 2px;
-  background-color: #000;
-  padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  text-decoration:none;
 }
 
 .dask:hover{
