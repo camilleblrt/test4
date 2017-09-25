@@ -21,7 +21,6 @@ p{
 
 #header nav{
   background:#111;
-  margin: 0px;
 }
 
 #header nav li a{
@@ -36,28 +35,24 @@ p{
   color:#9d9d9d;
 }
 
-// .logo{
-//   margin-left:20px;
-//   margin-top:5px;
-// }
+#header nav .software{
+  background:#aa030c;
+  border:#aa030c;
+  text-decoration:none;
+  height:60px;
+}
 
-// #header nav .downloads{
-//   background:#aa030c;
-//   border:#aa030c;
-//   text-decoration:none;
-//   height:60px;
-// }
-// #header nav .downloads a{
-//   background:#aa030c;
-// }
+#header nav .software a{
+  background:#aa030c;
+}
 
-// #header nav li.downloads a:hover{
-//     background-color: #aa030c;
-//     border: 1px solid #aa030c;
-//     color: #9d9d9d;
-//     text-decoration: none;
-//     box-shadow: none;
-// }
+#header nav li.software a:hover{
+    background-color: #aa030c;
+    border: 1px solid #aa030c;
+    color: #9d9d9d;
+    text-decoration: none;
+    box-shadow: none;
+}
   
 // Navbar
 #navbar {
