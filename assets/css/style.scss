@@ -5,6 +5,7 @@
 
 body{
   background: #000;
+  font-family: wf_segoe-ui_normal,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 // a{
 //  color: #9e0b0f!important;
@@ -17,7 +18,6 @@ ul{
   list-style-image: none;
 }
 
-@media print, screen and (max-width: 480px){
   
 // Header
 #header{
