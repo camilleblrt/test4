@@ -21,71 +21,71 @@ ul{
 
   
 // Header
-#header{
-  background:#111;
-  border-bottom: 0px;
-}
+// #header{
+//   background:#111;
+//   border-bottom: 0px;
+// }
 
-.navig{
- float:right; 
- margin-left: 6px;
-}
+// .navig{
+//  float:right; 
+//  margin-left: 6px;
+// }
 
-.download{
-  color: white;
-  border: 1px solid #9E0B0F;
-  border-radius: 2px;
-  background-color: #9E0B0F;
-  padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  text-decoration:none;
-}
+// .download{
+//   color: white;
+//   border: 1px solid #9E0B0F;
+//   border-radius: 2px;
+//   background-color: #9E0B0F;
+//   padding: 10px 12px;
+//   margin-top: 6px;
+//   line-height: 14px;
+//   font-size: 14px;
+//   display: inline-block;
+//   text-align: center;
+//   text-decoration:none;
+// }
 
-.download:hover{
-  color:#9d9d9d;
-  text-decoration:none;
-}
+// .download:hover{
+//   color:#9d9d9d;
+//   text-decoration:none;
+// }
 
-.home{
-  color: white;
-  border: 1px solid #111;
-  border-radius: 2px;
-  background-color: #111;
-  padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  text-decoration:none;
-}
+// .home{
+//   color: white;
+//   border: 1px solid #111;
+//   border-radius: 2px;
+//   background-color: #111;
+//   padding: 10px 12px;
+//   margin-top: 6px;
+//   line-height: 14px;
+//   font-size: 14px;
+//   display: inline-block;
+//   text-align: center;
+//   text-decoration:none;
+// }
 
-.home:hover{
- color:#9d9d9d;
- text-decoration:none;
-}
+// .home:hover{
+//  color:#9d9d9d;
+//  text-decoration:none;
+// }
 
-@media print, screen and (max-width: 480px){
-  #header {
-    height:auto;
-    margin-top: 0px;
-  }
-  .navig{
-    float:none;
-    display:block;
-    margin:5px auto;
-  }
-  .logo{
-    display:block;
-    margin:0 auto;
-    width: 150px!important;
-    height: 23px!important;
-  }
-}
+// @media print, screen and (max-width: 480px){
+//   #header {
+//     height:auto;
+//     margin-top: 0px;
+//   }
+//   .navig{
+//     float:none;
+//     display:block;
+//     margin:5px auto;
+//   }
+//   .logo{
+//     display:block;
+//     margin:0 auto;
+//     width: 150px!important;
+//     height: 23px!important;
+//   }
+// }
 
   
 // Navbar
