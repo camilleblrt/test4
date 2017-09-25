@@ -37,11 +37,10 @@ p {
  margin-left: 6px;
 }
 
-.download{
+.header . container .row .download{
   color: white;
-  border: 1px solid #9E0B0F;
   background-color: #9E0B0F;
-  padding: 10px 12px;
+  padding: 15px 12px;
 }
 
 .download:hover{
@@ -54,7 +53,7 @@ p {
    border: 1px solid #000;
    border-radius: 2px;
    background-color: #000;
-   padding: 10px 12px;
+   padding: 15px 12px;
 }
 
 .dask:hover{
