@@ -21,6 +21,10 @@ ul{
     display: table;
     content: " "; 
 }
+.container:after{
+    display: table;
+    content: " "; 
+}
 
 p {
     margin: 0 0 10px;
