@@ -20,7 +20,31 @@
   </head>
   <body  style="background:#000; color:#fff;">
     
-<nav class="navbar navbar-inverse">
+    
+    
+<div class="product-nav navbar navbar-inverse hidden-xs hidden-sm" data-spy="affix" data-offset-top="708">
+  <div class="navbar">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav  product-nav" >
+          <li><a href="#durable-premium-material" class="navcell-style" target="_self"><?php say("x50-features-section") ?></span></a></li>
+          <li><a href="#specs" class="navcell-style" target="_self"><?php say("x50-specs-section") ?></a></li>
+          <li><a href="#accessories" class="navcell-style" target="_self"><?php say("x50-accessories-section") ?></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-cell">
+          <?php if($current_language=="/de"): ?>
+            <a role="button" class="btn btn-lg btn-product center-block" style="background-color:#ab0d18;" href="/de/where-to-buy/"><?php say('buy_now') ?></a></li>
+		    	<?php else : ?>
+            <a role="button" class="btn btn-lg btn-product center-block" style="background-color:#ab0d18;" href="https://shop.daskeyboard.com/products/das-keyboard-x50-rgb-mechanical-keyboard"><?php say('buy_now') ?></a></li>
+			    <?php endif; ?>
+            
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,7 +63,7 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
 <!--     <div id="header">
       <div class="container">
         <div class="logo">
