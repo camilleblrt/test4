@@ -6,9 +6,6 @@
 body{
   background: #000;
 }
-// p{
-//   margin-top:1rem!important;
-// }
 
 // Header
 #header{
@@ -58,6 +55,8 @@ body{
  color:#9d9d9d;
  text-decoration:none;
 }
+
+
 // Navbar
 #navbar {
   z-index:100;
@@ -71,33 +70,9 @@ body{
   box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
 }
 
-#navbar nav li a{
-  color:white;
-  border-radius:2px;
-  padding:10px 12px;
-  line-height:14px;
-  font-size:18px;
-  display:inline-block;
-  text-align:center;
-  text-decoration: none;
-  background-color:#aa030c;
-  border:#aa030c;
-  margin-right: 100px;
-  height: 60px;
-  padding-top: 23px;
-  box-shadow:none;
-}
-
-#navbar nav li a:hover{
-  color:#9d9d9d;
-}
-
 .version{
+  margin-top:1rem;
   text-align:center;
-}
-
-#navbar nav ul li{
-  color:#fff;
 }
 
 // Twitter Widget
