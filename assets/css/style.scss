@@ -7,7 +7,7 @@ body{
   background: #000;
 }
 a{
- color: #9e0b0f;
+ color: #9e0b0f!important;
 }
 
 // Header
@@ -104,6 +104,10 @@ a{
     font-style: normal;
     font-weight: 400;
     padding-right: 10px;
+}
+
+.releases ul{
+   list-style-type: none;
 }
 
 // Twitter Widget
