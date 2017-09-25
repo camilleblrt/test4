@@ -144,97 +144,87 @@ p {
     padding-bottom: 40px;
 }
 
-// Twitter Widget
-#widget {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-align: left;
+//Footer
+
+@media (min-width: 1200px){
+  footer {
+      height: 90px;
+  }
 }
 
-.btn-o {
-    max-width: 100%;
+footer {
+    background-color: #333;
+    font-size: 12px;
+    color: white;
+    padding: 25px 0;
 }
-#count, .btn, .btn .label, .btn-o, .count-o {
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 135px;
+    width: 100%;
+}
+
+footer .left {
+    font-size: 14px;
+}
+
+footer .links {
+    padding: 0;
+}
+
+footer .links li:not(:last-child) {
+    padding-right: 20px;
+}
+
+footer .links li {
+    display: inline-block;
+}
+
+footer .message {
+    display: inline-block;
+}
+
+footer .links a {
+    color: white;
+}
+@media (min-width: 992px){
+  footer .github-star-button, footer .twitter-follow-button {
+      margin-bottom: 0;
+  }
+}
+
+footer .github-star-button, footer .twitter-follow-button {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+footer .github-star-button {
+    top: 5px;
+    position: relative;
+}
+
+@media (min-width: 992px){
+  footer .right {
+      margin-top: 0;
+      text-align: right;
+  }
+}
+
+footer .copyright {
+    margin-left: 30px;
+}
+
+footer .right>* {
     display: inline-block;
     vertical-align: top;
-    zoom: 1;
 }
 
-.btn {
-    position: relative;
-    height: 20px;
-    box-sizing: border-box;
-    background-color: #1b95e0;
-    color: #fff;
-    border-radius: 3px;
-    font-weight: 500;
-    cursor: pointer;
-    padding: 0px;
+footer .copyright .logo {
+    display: block;
+    margin-bottom: 2px;
 }
-.btn .label {
-    margin-left: 3px;
-    white-space: nowrap;
-}
-.btn .label b {
-    font-weight: 500;
-    white-space: nowrap;
-}
-.hcount .count-o {
-    margin: 0 0 0 5px;
-}
-.count-ready .count-o {
-    visibility: visible;
-}
-.count-o {
-    position: relative;
-    background: #fff;
-    border: #8799A6 solid 1px;
-    border-radius: 3px;
-    visibility: hidden;
-    min-height: 18px;
-    min-width: 15px;
-    text-align: center;
-}
-.count-o i, .count-o u {
-    position: absolute;
-    zoom: 1;
-    line-height: 0;
-    width: 0;
-    height: 0;
-    left: 0;
-    top: 50%;
-    margin: -4px 0 0 -4px;
-    border: 4px transparent solid;
-    border-right-color: #66757f;
-    border-left: 0;
-}
-.count-o u {
-    margin-left: -3px;
-    border-right-color: #fff;
-}
-.hcount #count {
-    padding: 0 5px;
-}
-#count {
-    white-space: nowrap;
-    color: #292F33;
-}
-
-// Footer
-
-.site-footer{
-  border-top:1px solid #222222;
-  padding:15px;
-  color:#888;
-}
-
-.social-content a{
-  float:right;
-  padding: 5px;
-  color:#888;
-}
-
-
 
 
