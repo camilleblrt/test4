@@ -230,6 +230,22 @@ footer .social i, header .social i {
     transition: color .5s ease-in-out;
 }
 
+footer .social li.facebook:hover {
+    background: #4C66A4;
+}
+
+footer .social li.twitter:hover{
+    background: #2C77BA;
+}
+
+footer .social li.rss:hover {
+    background: #f60;
+}
+
+footer .social li.gplus:hover{
+    background: #9e0b0f;
+}
+
 footer a{
   color:#fff;
 }
