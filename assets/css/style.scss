@@ -19,6 +19,10 @@ ul{
   list-style-image: none;
 }
 
+.container:before{
+    display: table;
+    content: " "; 
+}
   
 // Header
 .header .container .row{
