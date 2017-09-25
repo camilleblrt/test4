@@ -54,12 +54,7 @@
               <li><a href="/test4/releases/1.0.0-beta.30/">1.0.0-beta.30</a></li>
               <li><a href="/test4/releases/1.0.0-beta.29/">1.0.0-beta.29</a></li>
               <li><a href="/test4/releases/1.0.0-beta.28/">1.0.0-beta.28</a></li>
-		    <script>
-			    $('li a').click(function(e) {
-			    $('a').removeClass('active');
-			    $(this).addClass('active');
-			    });
-		 </script> 
+		   
           </div>
           <div class="col-md-9">
             {{ content }}
@@ -138,4 +133,10 @@
       {% endif %}
 	
   </body>
+	 <script>
+		    $('li a').click(function(e) {
+		    $('a').removeClass('active');
+		    $(this).addClass('active');
+		    });
+	 </script> 
 </html>
