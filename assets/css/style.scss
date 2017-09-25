@@ -34,11 +34,20 @@ body{
   text-decoration:none;
 }
 
+.download:hover{
+  color:#9d9d9d;
+  text-decoration:none;
+}
+
 .home{
  color:white;
  text-decoration:none;
 }
-  
+
+.home:hover{
+ color:#9d9d9d;
+ text-decoration:none;
+}
 // Navbar
 #navbar {
   z-index:100;
