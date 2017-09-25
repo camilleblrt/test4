@@ -14,9 +14,11 @@ img{
 }
 
 ul{
-  list-style-image: url(../images/bullet.png);
+  list-style-image: none;
 }
 
+@media print, screen and (max-width: 480px){
+  
 // Header
 #header{
   background:#111;
