@@ -36,21 +36,15 @@ The release notes are arranged in the following sections related to VS Code focu
 
 You can now drag files from the Search results and Problems panel over the editor area to control where these should open. The File Explorer always supported this and we have now expanded that feature to other regions of the UI.
 
-![Drag and drop in search results](https://raw.githubusercontent.com/Microsoft/vscode-docs/master/release-notes/images/1_16/search-dnd.gif)
-
 ### Open a folder via drag and drop
 
 VS Code has always supported dragging a folder from outside VS Code into it to open the folder. VS Code stills support this, but the visual feedback is changed a little bit. Previously you could drop the folder anywhere in VS Code to open it. With this release, you need to drop the folder over the editor area to open it. This change is due to both a technical reason (an Electron update) as well as an explicit decision to make the multi-root experience better. If you are using VS Code Insiders with multi-root support, you will be happy to hear that you can now drop a folder into the File Explorer to add it to the workspace.
-
-![Open folder via drag and drop](https://raw.githubusercontent.com/Microsoft/vscode-docs/master/release-notes/images/1_16/folder-drop.gif)
 
 ### Extension Host
 
 VS Code uses a multi-process architecture, where extensions are executed in a separate extension host process. The workbench can now recover gracefully from an unexpected termination of the extension host process. All UI elements and state driven from extensions will be removed (for example, squiggles and Status Bar items), and, if the extension host is restarted, everything will return to normal.
 
 In the following short video, the extension host process is terminated. When the extension host terminates, basic editing still works, word completions are presented, and once the extension host is restarted, real TypeScript powered completions return:
-
-![Extension Host Restart](https://raw.githubusercontent.com/Microsoft/vscode-docs/master/release-notes/images/1_16/exthost-restart.gif)
 
 ### Theming improvements
 
@@ -84,8 +78,6 @@ Thanks to the work of [Ryan Stringham](https://github.com/stringham) in [PR #296
 Thanks to the work of [@JD342](https://github.com/JD342) in [PR #25286](https://github.com/Microsoft/vscode/pull/25286), the editor now has a new option, `editor.smoothScrolling`, that will make the editor scroll with an animation. Once enabled, scrolling between different locations when using `Page Up` or `Page Down`, when cycling through find matches, when jumping to a definition in the same file, and when using the mouse wheel will be animated.
 
 > Note: Our platform currently does not support differentiating between scrolling initiated by a touchpad or a physical mouse wheel, and we currently use a heuristic to determine if smooth scrolling should be applied.
-
-![Smooth Scrolling](images/1_16/smooth-scrolling.gif)
 
 ### Emmet suggestions as snippets
 
