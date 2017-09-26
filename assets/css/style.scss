@@ -127,9 +127,10 @@ p {
     padding-left: 15px;
 }
 
-.active{
-    color: #9E0B0F !important;
+.menu.selected{
+  color:red;
 }
+
 //Content
 
 .body-content{
