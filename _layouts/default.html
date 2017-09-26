@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/test4/releases/1.0.0-beta.28/index.js"></script>
+
 	  
 </head>
   
@@ -57,43 +57,6 @@
               <li id="btn-30"><a href="/test4/releases/1.0.0-beta.30/" onclick="version30()">1.0.0-beta.30</a></li>
               <li id="btn-29"><a href="/test4/releases/1.0.0-beta.29/" onclick="version29()">1.0.0-beta.29</a></li>
               <li id="btn-28"><a href="/test4/releases/1.0.0-beta.28/" onclick="version28()">1.0.0-beta.28</a></li>
-		<script>
-		function version33() {
-    document.getElementById("btn-33").style.color="red";
-    document.getElementById("btn-31").style.color="#000";
-    document.getElementById("btn-30").style.color="#000";
-    document.getElementById("btn-29").style.color="#000";
-    document.getElementById("btn-28").style.color="#000";
-  }
-			function version31() {
-    document.getElementById("btn-31").style.color="red";
-    document.getElementById("btn-33").style.color="#000";
-    document.getElementById("btn-30").style.color="#000";
-    document.getElementById("btn-29").style.color="#000";
-    document.getElementById("btn-28").style.color="#000";
-  }
-			function version30() {
-    document.getElementById("btn-30").style.color="red";
-    document.getElementById("btn-33").style.color="#000";
-    document.getElementById("btn-31").style.color="#000";
-    document.getElementById("btn-29").style.color="#000";
-    document.getElementById("btn-28").style.color="#000";
-  }
-			function version29() {
-    document.getElementById("btn-29").style.color="red";
-    document.getElementById("btn-33").style.color="#000";
-    document.getElementById("btn-31").style.color="#000";
-    document.getElementById("btn-30").style.color="#000";
-    document.getElementById("btn-28").style.color="#000";
-  }
-			function version28() {
-    document.getElementById("btn-28").style.color="red";
-    document.getElementById("btn-31").style.color="#000";
-    document.getElementById("btn-30").style.color="#000";
-    document.getElementById("btn-29").style.color="#000";
-    document.getElementById("btn-33").style.color="#000";
-  }
-		    </script>
           </div>
           <div class="col-md-9">
             {{ content }}
@@ -169,6 +132,6 @@
           ga('send', 'pageview');
         </script>
       {% endif %}
-	
+	  <script src="/test4/assets/js/index.js"></script>
   </body>
 </html>
