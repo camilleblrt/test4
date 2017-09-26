@@ -1,3 +1,10 @@
+---
+TOCTitle: August 2017
+PageTitle: Das Keyboard August 2017
+MetaDescription: See what is new in the Das keyboard August 2017 Release
+---
+
+
 # August 2017 (version 1.0.0-beta.31)
 
 **Update 1.0.0-beta.31**: The update addresses these [issues](https://github.com/Microsoft/vscode/milestone/53?closed=1).
